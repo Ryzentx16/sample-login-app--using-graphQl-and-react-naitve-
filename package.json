@@ -1,0 +1,24 @@
+{
+  "name": "login_graphql_rn",
+  "version": "1.0.0",
+  "description": "sample login app using graphql and react native",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdom11/sample-login-app--using-graphQl-and-react-naitve-.git"
+  },
+  "author": "Ryzentx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdom11/sample-login-app--using-graphQl-and-react-naitve-/issues"
+  },
+  "homepage": "https://github.com/abdom11/sample-login-app--using-graphQl-and-react-naitve-#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0"
+  }
+}
