@@ -1,6 +1,7 @@
-import gql from "graphql-tag";
-import express from "express";
-import { ApolloServer, makeExecutableSchema } from "apollo-server-express";
+const gql = require("graphql-tag");
+const express = require("express");
+const { ApolloServer } = require("apollo-server-express");
+const { makeExecutableSchema } = require("@graphql-tools/schema");
 
 const port = process.env.PORT || 8080;
 

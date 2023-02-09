@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "sample login app using graphql and react native",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "serve": "babel-node app.js",
+    "serve": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/abdom11/sample-login-app--using-graphQl-and-react-naitve-#readme",
   "dependencies": {
+    "@apollo/server": "^4.3.3",
     "apollo-server-express": "^3.11.1",
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
